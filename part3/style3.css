@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+#page-title,
+#feedback-title {
+  text-align: center;
+  margin: 18px 0;
+  color: #222;
+}
+
+.card {
+  max-width: 800px;
+  margin: 18px auto;
+  padding: 18px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: inherit;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: center; 
+}
+
+thead th {
+  background-color: #555; 
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.highlight-row {
+  background-color: #ffe082;
+}
+
+.feedback-form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.feedback-form label {
+  font-weight: bold; 
+  display: block;
+  margin-top: 10px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%; 
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.feedback-form p { margin: 12px 0 6px; }
+.feedback-form input[type="radio"] { margin-right: 6px; }
+
+.feedback-form button {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feedback-form button:hover {
+  background-color: #555;
+}
